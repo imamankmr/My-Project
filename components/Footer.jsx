@@ -1,11 +1,37 @@
-
+// components/Footer.js
 
 const Footer = () => {
   return (
-    <div className=" h-28 flex justify-center items-center bg-gray-200 text-2xl">
-      All rights are reserved. &copy; 2023.
-    </div>
-  )
-}
+    <footer className="bg-gray-900 pt-12 pb-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-4">About Us</h4>
+            <p className="text-gray-400">Information about your company and what you offer.</p>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-4">Contact Us</h4>
+            <p className="text-gray-400">Contact information such as email, phone number, and address.</p>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold text-white mb-4">Follow Us</h4>
+            <ul className="flex space-x-4">
+              <li><a href="#" className="text-gray-400 hover:text-white transition duration-300 ease-in-out">Facebook</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition duration-300 ease-in-out">Twitter</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition duration-300 ease-in-out">Instagram</a></li>
+              {/* Add more social media links as needed */}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="mt-8 border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+          <p className="text-sm text-gray-400">&copy; 2024 Your Company. All rights reserved.</p>
+          <p className="text-sm text-gray-400">Crafted with <span className="text-red-500">&hearts;</span> by Your Team</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

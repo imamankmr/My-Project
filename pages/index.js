@@ -20,7 +20,7 @@ const Home = () => {
       <div className="mx-20">
         <div className=" my-14">
           <Image
-            src={"/banner1.avif"}
+            src={"/nbanner1.avif"}
             alt="banner1"
             width={200}
             height={200}
@@ -29,11 +29,20 @@ const Home = () => {
         </div>
         <div className="mb-14">
           <Image
-            src={"/banner2.avif"}
+            src={"/nbanner3.avif"}
             alt="banner1"
             width={200}
             height={200}
             className=" h-40 w-full"
+          />
+        </div>
+        <div className="mb-14">
+          <Image
+            src={"/nbanner2.avif"}
+            alt="banner1"
+            width={200}
+            height={200}
+            className=" h-90 w-full"
           />
         </div>
         <Header4 />

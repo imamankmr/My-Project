@@ -5,9 +5,9 @@ import { useState } from "react";
 
 const Header3 = () => {
   const [city, setCity] = useState(" ");
-
+  
   return (
-    <div className=" bg-gradient-to-r from-red-600 to-red-400 h-60">
+    <div className=" bg-gradient-to-r from-slate-500 to-slate-900 h-60">
       <div className=" p-5">
         <h2 className=" text-4xl text-white text-center font-bold">
           Over 157,000 hotels and homes across 35 countries

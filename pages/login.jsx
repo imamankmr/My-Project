@@ -66,7 +66,7 @@ const Login = () => {
             </p>
           </div>
           <div className=" ml-20 pb-40 w-10/12 border bg-slate-50">
-            <p className="h-10 flex items-center px-10 bg-gradient-to-r from-red-300 to bg-red-600 text-lg font-bold text-white">
+            <p className="h-10 flex items-center px-10 bg-gradient-to-r from-slate-500 to-slate-900 text-lg font-bold text-white">
               Sign up & Get ₹500 OYO Money
             </p>
             <div className="px-10">
@@ -98,7 +98,7 @@ const Login = () => {
               />
               <button
                 type="submit"
-                className=" w-96 h-14 text-lg font-bold bg-red-500 hover:cursor-pointer hover:bg-red-600 text-white my-5 rounded-lg"
+                className=" w-96 h-14 text-lg font-bold bg-slate-600 hover:cursor-pointer hover:bg-red-600 text-white my-5 rounded-lg"
                 onClick={login ? handleLogin : handleSignup}
               >
                 {login ? "Login " : " Sign Up"}

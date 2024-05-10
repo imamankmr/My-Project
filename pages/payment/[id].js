@@ -14,16 +14,16 @@ const Payment = () => {
 
     const options = {
       key: process.env.RAZORPAY_KEY,
-      name: "Aditya",
+      name: "Aman",
       currency: data.currency,
       amount: data.amount,
       order_id: data.id,
       description: "Thank You !",
       handler: function (response) {},
       prefill: {
-        name: "Aditya",
-        email: "adi@gmail.com",
-        contact: 987654321,
+        name: "Aman",
+        email: "amankr@gmail.com",
+        contact: 6209792987,
       },
     };
 
@@ -37,7 +37,7 @@ const Payment = () => {
 
   return (
     <>
-      <Script src="http://checkout.razorpay.com/v1/checkout.js" />
+      <Script src="https://checkout.razorpay.com/v1/checkout.js" />
     </>
   );
 };

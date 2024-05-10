@@ -9,6 +9,9 @@ const nextConfig = {
       "i.pinimg.com",
       "www.symbols.com",
       "cdn.pixabay.com",
+      "static-00.iconduck.com",
+      "static.vecteezy.com",
+      "cdn3.iconfinder.com"
     ],
   },
 };
