@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        "login-background":'url("/background.avif")'
+        "login-background":'url("/background3.avif")'
       },
       height:{
         'large-box':'400px'

@@ -11,7 +11,9 @@ const nextConfig = {
       "cdn.pixabay.com",
       "static-00.iconduck.com",
       "static.vecteezy.com",
-      "cdn3.iconfinder.com"
+      "cdn3.iconfinder.com",
+      "a0.muscache.com",
+      "encrypted-tbn0.gstatic.com"
     ],
   },
 };

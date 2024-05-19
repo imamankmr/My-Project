@@ -49,8 +49,9 @@ const Header3 = () => {
           <button
             type="submit"
             className=" h-16 px-3 py-2 hover:cursor-pointer border-2 border-white text-white mr-5 hover:bg-gray-500 rounded-xl"
-          >
-            Homestay in India hotels
+          > 
+          <Link href={`/hotels?city`}>
+            Homestay in India hotels </Link>
           </button>
         </div>
       </div>

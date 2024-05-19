@@ -40,7 +40,7 @@ const Filters = ({
 
   return (
     <>
-      <div className=" border-2 border-red-500 rounded-md m-5 h-auto py-10 px-3">
+      <div className=" bg-stone-300	 border-2 rounded-md m-5 h-auto py-10 px-3">
         <label htmlFor="price" className=" text-xl mr-3 font-bold">
           Price :{" "}
         </label>
@@ -49,7 +49,7 @@ const Filters = ({
           name="price"
           id="price"
           min={1000}
-          max={3500}
+          max={7500}
           onChange={(e) => setPrice(e.target.value)}
           defaultValue={price ? price : 0}
         />

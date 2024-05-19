@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hotel = ({ e }) => {
   return (
-    <div className=" border-2 border-red-500 rounded-lg h-96 w-full mb-5 p-5">
+    <div className=" bg-slate-300 border-2 border-red rounded-lg h-96 w-full mb-5 p-5">
       <div className="flex">
         <Image
           src={e?.banner}
